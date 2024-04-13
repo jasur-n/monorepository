@@ -1,0 +1,19 @@
+{
+  "name": "npm-workspaces",
+  "version": "1.0.0",
+  "description": "This repo is created for learning and practising monorepo using npm workspaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasur-n/npm-workspaces.git"
+  },
+  "author": "Jasurbek Normurodov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasur-n/npm-workspaces/issues"
+  },
+  "homepage": "https://github.com/jasur-n/npm-workspaces#readme"
+}
