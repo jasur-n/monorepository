@@ -1,2 +1,2 @@
-# monorepository
-This repo is created for learning and practising monorepo 
+# npm workspaces
+This repo is created for learning and practising monorepo using npm workspaces
