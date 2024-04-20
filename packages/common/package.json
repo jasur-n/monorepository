@@ -1,5 +1,5 @@
 {
-  "name": "@jasur-n/common",
+  "name": "@profy/npm-workspaces-common",
   "private": false,
   "version": "1.0.0",
   "type": "module",
