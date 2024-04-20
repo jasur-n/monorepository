@@ -6,8 +6,9 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build:packages",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run build --workspaces",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:common": "npm run build -w @jasur-n/common"
   },
   "repository": {
     "type": "git",

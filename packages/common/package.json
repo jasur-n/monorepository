@@ -1,7 +1,7 @@
 {
-  "name": "@npm-workspaces/common",
+  "name": "@jasur-n/common",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -37,6 +37,7 @@
   "main": "./dist/components.umd.js",
   "module": "./dist/components.es.js",
   "types": "./dist/index.d.ts",
+  "typings": "./dist/index.d.ts",
   "dependencies": {
     "vite-plugin-dts": "^3.8.3",
     "vite-tsconfig-paths": "^4.3.2"
