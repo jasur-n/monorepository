@@ -6,7 +6,7 @@ import dts from 'vite-plugin-dts';
 import tsConfigPaths from 'vite-tsconfig-paths';
 import * as packageJson from './package.json';
 
-export default defineConfig((configEnv) => ({
+export default defineConfig(() => ({
   plugins: [
     react(),
     tsConfigPaths(),
