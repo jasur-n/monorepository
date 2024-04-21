@@ -31,7 +31,8 @@
   "exports": {
     ".": {
       "import": "./dist/components.es.js",
-      "require": "./dist/components.umd.js"
+      "require": "./dist/components.umd.js",
+      "types": "./dist/index.d.ts"
     }
   },
   "main": "./dist/components.umd.js",
