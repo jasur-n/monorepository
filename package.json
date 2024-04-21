@@ -8,7 +8,8 @@
   "scripts": {
     "build": "npm run build --workspaces",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:common": "npm run build -w @jasur-n/common"
+    "build:common": "npm run build -w @profy/npm-workspaces-common",
+    "start": "npm run build -w @profy/npm-workspaces-common && npm run dev -w @profy/npm-workspaces-client"
   },
   "repository": {
     "type": "git",
