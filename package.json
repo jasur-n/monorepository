@@ -10,7 +10,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:common": "npm run build -w @profy/npm-workspaces-common",
     "start": "npm run build -w @profy/npm-workspaces-common && npm run dev -w @profy/npm-workspaces-client",
-    "lint": "npm run lint --workspaces"
+    "lint": "npm run lint --workspaces",
+    "release": "npm version --workspaces -- $1",
+    "release:minor": "npm version minor --workspaces",
+    "release:major": "npm version major --workspaces",
+    "release:patch": "npm version patch --workspaces",
+    "publish": "npm run release:patch && npm publish --workspaces"
   },
   "repository": {
     "type": "git",
